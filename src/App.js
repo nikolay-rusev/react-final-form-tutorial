@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import GettingStartedForm from "./forms/GettingStartedForm/GettingStartedForm";
+import CustomFieldsForm from "./forms/CustomFieldsForm/CustomFieldsForm";
 
 function App() {
   return (
     <div className="App">
       <GettingStartedForm />
+      <CustomFieldsForm />
     </div>
   );
 }
